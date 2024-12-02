@@ -51,9 +51,8 @@ export class Form extends React.Component {
                     <button disabled={this.submitDisable()}> Отправить форму </button>
                 </div>
 
-                <p> Значение счетчика: {this.state.counter}
-                    <p><button onClick={this.handleClick}> Увеличить </button></p>
-                </p>
+                <p> Значение счетчика: {this.state.counter}</p>
+                <p> <button onClick={this.handleClick}> Увеличить </button></p>
 
             </>
         )
